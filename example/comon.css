@@ -1,0 +1,21 @@
+.code {
+  background-color: #eee;
+  min-width: 200px;
+  min-height: 100px;
+  padding: 12px;
+  border-radius: 12px;
+}
+[data-err] {
+  position: relative;
+}
+[data-err]::after {
+  position: absolute;
+  font-size: 12px;
+  content: attr(data-err);
+  color: deeppink;
+  top: 105%;
+  left: 12px;
+}
+.page{
+  width: 300px;
+}

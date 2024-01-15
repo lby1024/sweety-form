@@ -1,0 +1,35 @@
+.form {
+  color: #555;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 24px;
+}
+
+.label {
+  padding-top: 6px;
+  width: 120px;
+  text-align: right;
+  margin-right: 9px;
+}
+
+.input {
+  min-width: 250px;
+}
+
+[data-err] {
+  position: relative;
+}
+[data-err]::after {
+  position: absolute;
+  font-size: 12px;
+  content: attr(data-err);
+  color: deeppink;
+  top: 105%;
+  left: 12px;
+}
