@@ -17,9 +17,7 @@ npm i sweety-form --save
 import { Button, Input } from "antd"
 import { Form, email, formItem, label, password } from "sweety-form"
 
-
 class FormModel {
-
   @label('邮箱')
   @formItem(<Input placeholder="e-mail" />)
   @email('请输入正确邮箱地址')

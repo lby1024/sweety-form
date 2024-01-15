@@ -6,7 +6,7 @@ hero:
     - text: 立即上手
       link: /enties/01-start
     - text: GitHub
-      link: /
+      link: https://github.com/lby1024/sweety-form
 features:
   - title: 简单
     emoji: 💎
