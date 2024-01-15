@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 
 export default defineConfig({
   outputPath: 'docs-dist',
-  // base: '/sweety-form',
+  base: '/sweety-form',
   publicPath: '/sweety-form/',
   themeConfig: {
     name: 'sweety-form',
